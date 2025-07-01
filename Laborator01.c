@@ -21,3 +21,7 @@ struct Telefon initializare(int id, int ram, const char* producator, float pret,
 	t.serie = serie;
 	return t;
 }
+
+int main() {
+	return 0;
+}
