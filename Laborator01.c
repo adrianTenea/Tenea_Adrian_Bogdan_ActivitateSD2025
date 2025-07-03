@@ -26,5 +26,8 @@ int main() {
 	//declarararea unei variabile numite t de tipul structurii Telefon
 	struct Telefon t;
 
+	//apelarea functiei de initializare
+	t = initializare(1, 256, "Samsung", 2000.5, 'A');
+
 	return 0;
 }
