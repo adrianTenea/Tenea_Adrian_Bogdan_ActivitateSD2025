@@ -23,5 +23,8 @@ struct Telefon initializare(int id, int ram, const char* producator, float pret,
 }
 
 int main() {
+	//declarararea unei variabile numite t de tipul structurii Telefon
+	struct Telefon t;
+
 	return 0;
 }
