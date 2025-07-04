@@ -24,7 +24,7 @@ struct Telefon initializare(int id, int ram, const char* producator, float pret,
 
 //functia de afisare
 void afisare(struct Telefon t) {
-	printf("%d. Telefonul %s Seria %c are %d Gb RAM si costa %5.2f RON\n", t.id, t.producator, t.serie, t.RAM, t.pret);
+	printf("%d. Telefonul %s Seria %c are %d GB RAM si costa %5.2f RON.\n", t.id, t.producator, t.serie, t.RAM, t.pret);
 }
 
 int main() {
