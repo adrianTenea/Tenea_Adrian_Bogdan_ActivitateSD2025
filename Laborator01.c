@@ -34,5 +34,8 @@ int main() {
 	//apelarea functiei de initializare
 	t = initializare(1, 256, "Samsung", 2000.5, 'A');
 
+	//apelarea functiei de afisare
+	afisare(t);
+
 	return 0;
 }
