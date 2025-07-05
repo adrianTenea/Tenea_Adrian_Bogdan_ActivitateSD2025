@@ -18,10 +18,13 @@
     <ClCompile Include="RepoGithub.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Laborator01.c">
+    <ClCompile Include="Seminar01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Seminar01.c">
+    <ClCompile Include="Laborator02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
