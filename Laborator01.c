@@ -57,5 +57,11 @@ int main() {
 	//apelarea functiei de afisare - pentru a vedea modificarea pretului
 	afisare(t);
 
+	//apelarea functiei de dezalocare
+	dezalocare(&t);
+
+	//apelarea functiei de afisare - pentru a verifica daca s-a dezalocat
+	afisare(t);
+
 	return 0;
 }
