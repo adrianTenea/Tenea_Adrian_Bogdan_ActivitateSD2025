@@ -44,7 +44,10 @@ int main() {
 	afisare(t);
 
 	//apelarea functiei de modificare a pretului
+	modificaPret(&t, 1000);
 
+	//afisarea telefonului dupa modificarea pretului
+	afisare(t);
 
 	return 0;
 }
