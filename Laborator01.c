@@ -33,6 +33,14 @@ void modificaPret(struct Telefon* t, float noulPret) {
 	}
 }
 
+//functia de dezalocare
+void dezalocare(struct Telefon* t) {
+	if (t->producator != NULL) {
+		free(t->producator);
+		t->producator = NULL;
+	}
+}
+
 int main() {
 	//declarararea unei variabile numite t de tipul structurii Telefon
 	struct Telefon t;
