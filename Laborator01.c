@@ -27,9 +27,9 @@ void afisare(struct Telefon t) {
 	printf("%d. Telefonul %s Seria %c are %d GB RAM si costa %5.2f RON.\n", t.id, t.producator, t.serie, t.RAM, t.pret);
 }
 
-void modificaPret(struct Telefon t, float noulPret) {
+void modificaPret(struct Telefon* t, float noulPret) {
 	if (noulPret > 0) {
-		t.pret = noulPret;
+		t->pret = noulPret; // echivalent cu (*t).pret = noulPret;
 	}
 }
 
@@ -42,6 +42,9 @@ int main() {
 
 	//apelarea functiei de afisare
 	afisare(t);
+
+	//apelarea functiei de modificare a pretului
+
 
 	return 0;
 }
