@@ -24,7 +24,13 @@ struct Telefon initializare(int id, int ram, const char* producator, float pret,
 
 //functia de afisare
 void afisare(struct Telefon t) {
-	printf("%d. Telefonul %s Seria %c are %d GB RAM si costa %5.2f RON.\n", t.id, t.producator, t.serie, t.RAM, t.pret);
+	if (t.producator != NULL) {
+		printf("%d. Telefonul %s Seria %c are %d GB RAM si costa %5.2f RON.\n", t.id, t.producator, t.serie, t.RAM, t.pret);
+	}
+	else {
+		printf("%d. Telefonul din seria %c are %d GB RAM si costa %5.2f RON.\n", t.id, t.serie, t.RAM, t.pret);
+	}
+	
 }
 
 void modificaPret(struct Telefon* t, float noulPret) {
