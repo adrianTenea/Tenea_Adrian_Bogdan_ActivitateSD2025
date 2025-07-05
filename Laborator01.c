@@ -46,7 +46,7 @@ int main() {
 	//apelarea functiei de modificare a pretului
 	modificaPret(&t, 1000);
 
-	//afisarea telefonului dupa modificarea pretului
+	//apelarea functiei de afisare - pentru a vedea modificarea pretului
 	afisare(t);
 
 	return 0;
