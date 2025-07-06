@@ -33,6 +33,8 @@ void afisare(struct Telefon t) {
 }
 
 int main() {
+	//declarare variabila de tip structura Telefon
+	struct Telefon t;
 	
 	return 0;
 }
