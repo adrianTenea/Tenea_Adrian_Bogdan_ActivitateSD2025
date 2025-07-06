@@ -35,6 +35,9 @@ void afisare(struct Telefon t) {
 int main() {
 	//declarare variabila de tip structura Telefon
 	struct Telefon t;
+
+	//apelarea functiei de initializare
+	initializare(1, 256, "Samsung", 2000.5, 'A');
 	
 	return 0;
 }
